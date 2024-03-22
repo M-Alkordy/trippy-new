@@ -1,0 +1,113 @@
+nav {
+    display: flex;
+    width: 95vw;
+    height: 80px;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+nav .logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav .items {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li,
+nav button {
+    padding: .7rem 1rem;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav button {
+    border: none;
+}
+
+nav .items button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+nav li:hover {
+    background-color: #01959a;
+    color: #fff;
+}
+
+nav .menuButton{
+    display: none;
+    background: none;
+    border: none;
+}
+
+.nav-menu{
+    width: 95%;
+    transform: translateX(-100%);
+    position: fixed;
+    top: 100px;
+    left: 2.5vw;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    transition: 1s all;
+}
+
+.nav-menu.active{
+    transform: translateX(0);
+}
+
+.nav-menu ul{
+    list-style: none;
+}
+
+.nav-menu ul li{
+    padding: 32px 0;
+}
+
+.nav-menu ul li:hover{
+    background-color: #01959a;
+    color: #fff;
+}
+
+.nav-menu ul li , .nav-menu ul button{
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.nav-menu button{
+    width: 80%;
+    margin: 20px auto;
+    padding: 1.5rem;
+    background-color: #01959a;
+    border: none;
+}
+
+@media screen and (max-width : 992px) {
+    nav .menuButton{
+        display: block;
+    }
+
+    nav .items{
+        display: none;
+    }
+}
