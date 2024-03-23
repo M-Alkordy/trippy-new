@@ -62,7 +62,7 @@ nav .menuButton{
 
 .nav-menu{
     width: 95%;
-    transform: translateX(-100%);
+    transform: translateX(-105%);
     position: fixed;
     top: 100px;
     left: 2.5vw;

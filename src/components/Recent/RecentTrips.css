@@ -1,0 +1,14 @@
+.Recent {
+    color: #2a2a2a;
+    margin: 4rem 0;
+}
+
+.Recent .title,
+.Recent .desc {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.Recent .title {
+    font-size: 3rem;
+}

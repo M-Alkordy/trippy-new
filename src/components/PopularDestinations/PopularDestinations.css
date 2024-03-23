@@ -1,0 +1,14 @@
+.Popular{
+    color: #2a2a2a;
+    margin: 4rem 0;
+}
+
+.Popular .title , .Popular .desc{
+    width: max-content;
+    margin: 0 auto;
+}
+
+.Popular .title{
+    font-size: 3rem;
+}
+
